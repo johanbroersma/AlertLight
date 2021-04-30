@@ -65,7 +65,4 @@ except KeyboardInterrupt:
     pass
     
 finally:
-    message_line1 = ""
-    message_line2 = ""
-    mylcd.lcd_display_string(message_line1, 1)
-    mylcd.lcd_display_string(message_line2, 2)
+    mylcd.lcd_clear()
